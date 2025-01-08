@@ -6,7 +6,3 @@ Hello there! 👋 I'm Sahil Sharma, a passionate computer science student based 
 
 <img width="347" alt="Readme2" src="https://github.com/Sahil-Sharma-603/Sahil-Sharma-603.github.io/assets/56178181/1e351a74-9369-458b-be9d-f24628357dd3">
 
-
-### Reference 
-### [Great Stack](https://www.youtube.com/watch?v=0YFrGy_mzjY&t=5545s)
-#### Youtube Channel
