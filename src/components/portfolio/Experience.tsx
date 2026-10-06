@@ -3,22 +3,37 @@ import { useState } from "react";
 import { Briefcase } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 
+
 const professional = [
-  
   {
-    role: "Full-Stack Developer",
-    company: "Freelancing",
-    period: "2025 — Present",
-    points: [
-      "Engaged with clients to gather requirements and identify business needs using a consultative approach.",
-      "Designed, developed, and iterated on full-stack applications based on client feedback, ensuring alignment with expectations.",
-      "Built and deployed a production-ready website for Panda Towing Ltd., managing the project from concept to launch.",
-      "Troubleshot and resolved technical issues across frontend and backend systems, ensuring reliable performance.",
-      "Integrated third-party APIs and services to enhance functionality and improve user experience.",
-      "Maintained clear communication with clients throughout the development lifecycle, providing updates and technical guidance.",
-    ],
-  }
-];
+  role: "Data Analyst",
+  company: "Freelancer — Self-Employed",
+  period: "Jan 2026 — Present",
+  points: [
+  "Develop interactive dashboards in Power BI and Tableau to analyze business metrics, identify trends, and communicate actionable insights.",
+  "Perform complex SQL querying, data cleaning, transformation, and aggregation across structured datasets to support analytical projects.",
+  "Conduct exploratory data analysis (EDA) using Python, Pandas, and statistical techniques to uncover patterns, relationships, and data quality issues.",
+  "Build lightweight ETL pipelines and analytical workflows using SQL, Python, dbt, and BigQuery to prepare reliable datasets for reporting and analysis.",
+  "Apply customer segmentation and statistical analysis techniques to identify meaningful patterns and support data-driven decision-making.",
+  "Work with Excel, R, Streamlit, and modern analytics tools to develop reproducible analyses and interactive data applications.",
+  "Apply data modeling and data quality practices to improve the reliability, consistency, and usability of analytical datasets.",
+  ],
+  },
+  {
+  role: "Software Developer",
+  company: "Freelancer — Self-Employed",
+  period: "May 2025 — Present",
+  points: [
+  "Design and develop custom websites and web applications for small businesses, delivering solutions from requirements gathering and system design through deployment and ongoing support.",
+  "Built and launched production websites for clients including Panda Towing Ltd. and Singh Lens Photography, with a focus on performance, usability, and responsive design.",
+  "Develop full-stack applications using React.js, TypeScript, Express.js, Node.js, and MongoDB, with experience integrating APIs and managing application data.",
+  "Implement Docker, CI/CD pipelines, SonarQube, and cloud deployment workflows to support reliable application development and delivery.",
+  "Collaborate directly with clients to gather requirements, understand business needs, and translate them into practical technical solutions.",
+  "Manage cloud-based hosting, deployment, security, and monitoring to maintain reliable and scalable applications.",
+  ],
+  },
+  ];
+  
 
 
 const otherWork = [

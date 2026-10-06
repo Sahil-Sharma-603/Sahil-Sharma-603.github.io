@@ -3,50 +3,94 @@ import { SectionHeading } from "./SectionHeading";
 
 
 
+// const projects = [
+//   {
+//     name: "BrainByte AI",
+//     tagline: "AI-powered quiz platform for law enforcement preparation",
+//     desc: "Built a full-stack AI quiz application that generates dynamic questions based on selected categories. Implemented secure authentication and real-time question delivery, enabling users to assess and track their preparation effectively.",
+//     stack: ["React (Vite)", "FastAPI", "Python", "Clerk Auth", "REST APIs"],
+//     score: "AI",
+//     color: "pink" as const,
+//     github: "https://github.com/Sahil-Sharma-603/BrainByte-AI",
+//     live: ""
+//   },
+//   {
+//     name: "Money Lens",
+//     tagline: "Full-stack personal finance tracker with real-time insights",
+//     desc: "Developed a financial tracking web app that integrates with Plaid APIs to securely import and analyze transactions. Features data visualization, expense categorization, and goal tracking, built using modern full-stack technologies and CI/CD practices.",
+//     stack: ["Next.js", "TypeScript", "Node.js", "MongoDB", "Docker", "CI/CD"],
+//     score: "DATA",
+//     color: "cyan" as const,
+//     github: "https://github.com/Sahil-Sharma-603/Money-Lens-App",
+//     live: "",
+//   },
+//   {
+//     name: "NBA Database",
+//     tagline: "Relational database system for sports analytics",
+//     desc: "Designed and implemented a normalized SQL database from raw NBA datasets. Built data pipelines using Python and developed a Java-based interface to execute analytical queries and extract insights efficiently.",
+//     stack: ["SQL", "Python", "Java", "MySQL", "Data Modeling"],
+//     score: "DB",
+//     color: "yellow" as const,
+//     github: "https://github.com/Sahil-Sharma-603/NBA-Database",
+//     live: "https://www.youtube.com/watch?v=Q10w5O0aXE4",
+//   },
+//   {
+//     name: "Adventure Works Dashboard",
+//     tagline: "Power BI sales analytics dashboard",
+//     desc: "Created an interactive Power BI dashboard analyzing sales, customer segmentation, and revenue trends. Applied data modeling, DAX calculations, and visualization techniques to deliver actionable business insights.",
+//     stack: ["Power BI", "DAX", "Power Query", "Data Visualization"],
+//     score: "BI",
+//     color: "green" as const,
+//     github: "https://github.com/Sahil-Sharma-603/Adventure_Work_PowerBI_Project",
+//     live: "",
+
+//   },
+// ];
+
+
 const projects = [
   {
-    name: "BrainByte AI",
-    tagline: "AI-powered quiz platform for law enforcement preparation",
-    desc: "Built a full-stack AI quiz application that generates dynamic questions based on selected categories. Implemented secure authentication and real-time question delivery, enabling users to assess and track their preparation effectively.",
-    stack: ["React (Vite)", "FastAPI", "Python", "Clerk Auth", "REST APIs"],
-    score: "AI",
-    color: "pink" as const,
-    github: "https://github.com/Sahil-Sharma-603/BrainByte-AI",
-    live: ""
+  name: "Motor Vehicle Insurance — EDA",
+  tagline: "Exploratory data analysis of motor vehicle insurance data",
+  desc: "Performed exploratory data analysis on motor vehicle insurance policy data to examine customer characteristics, vehicle attributes, premiums, and claims. Identified patterns, relationships, and unusual observations to generate actionable insights and support future insurance analytics and modeling.",
+  stack: ["Python", "Pandas", "NumPy", "EDA", "Data Visualization", "Statistical Analysis"],
+  score: "EDA",
+  color: "pink" as const,
+  github: "https://github.com/Sahil-Sharma-603/Motor-Vehicle-Insurance-EDA2",
+  live: ""
   },
   {
-    name: "Money Lens",
-    tagline: "Full-stack personal finance tracker with real-time insights",
-    desc: "Developed a financial tracking web app that integrates with Plaid APIs to securely import and analyze transactions. Features data visualization, expense categorization, and goal tracking, built using modern full-stack technologies and CI/CD practices.",
-    stack: ["Next.js", "TypeScript", "Node.js", "MongoDB", "Docker", "CI/CD"],
-    score: "DATA",
-    color: "cyan" as const,
-    github: "https://github.com/Sahil-Sharma-603/Money-Lens-App",
-    live: "",
+  name: "Bank Branch Expansion Simulator",
+  tagline: "Analytics and optimization tool for bank branch expansion",
+  desc: "Built an end-to-end analytics and optimization application using FDIC Summary of Deposits data to identify high-potential locations for new bank branches while considering budget and geographic distance constraints. Transformed raw government data into an actionable expansion plan using Python, spatial distance calculations, Streamlit, and Tableau.",
+  stack: ["Python", "Pandas", "NumPy", "Streamlit", "Tableau", "Data Analysis"],
+  score: "OPT",
+  color: "cyan" as const,
+  github: "https://github.com/Sahil-Sharma-603/Bank_Branch_Expansion_Simulator",
+  live: "https://bankbranchexpansionsimulator-pne8xmbxz6z2tcu9e4xqpk.streamlit.app/",
   },
   {
-    name: "NBA Database",
-    tagline: "Relational database system for sports analytics",
-    desc: "Designed and implemented a normalized SQL database from raw NBA datasets. Built data pipelines using Python and developed a Java-based interface to execute analytical queries and extract insights efficiently.",
-    stack: ["SQL", "Python", "Java", "MySQL", "Data Modeling"],
-    score: "DB",
-    color: "yellow" as const,
-    github: "https://github.com/Sahil-Sharma-603/NBA-Database",
-    live: "https://www.youtube.com/watch?v=Q10w5O0aXE4",
+  name: "NBA Database",
+  tagline: "Relational database system for sports analytics",
+  desc: "Designed and implemented a normalized SQL database from raw NBA datasets. Built data pipelines using Python and developed a Java-based interface to execute analytical queries and extract insights efficiently.",
+  stack: ["SQL", "Python", "Java", "MySQL", "Data Modeling"],
+  score: "DB",
+  color: "yellow" as const,
+  github: "https://github.com/Sahil-Sharma-603/NBA-Database",
+  live: "https://www.youtube.com/watch?v=Q10w5O0aXE4",
   },
   {
-    name: "Adventure Works Dashboard",
-    tagline: "Power BI sales analytics dashboard",
-    desc: "Created an interactive Power BI dashboard analyzing sales, customer segmentation, and revenue trends. Applied data modeling, DAX calculations, and visualization techniques to deliver actionable business insights.",
-    stack: ["Power BI", "DAX", "Power Query", "Data Visualization"],
-    score: "BI",
-    color: "green" as const,
-    github: "https://github.com/Sahil-Sharma-603/Adventure_Work_PowerBI_Project",
-    live: "",
-
+  name: "Adventure Works Dashboard",
+  tagline: "Power BI sales analytics dashboard",
+  desc: "Created an interactive Power BI dashboard analyzing sales performance, customer segmentation, and revenue trends. Applied data modeling, DAX calculations, Power Query, and visualization techniques to transform business data into actionable insights.",
+  stack: ["Power BI", "DAX", "Power Query", "Data Modeling", "Data Visualization"],
+  score: "BI",
+  color: "green" as const,
+  github: "https://github.com/Sahil-Sharma-603/Adventure_Work_PowerBI_Project",
+  live: "",
   },
-];
-
+  ];
+  
 
 const accent = {
   pink: { border: "border-neon-pink", text: "text-neon-pink", shadow: "hover:shadow-glow-pink" },

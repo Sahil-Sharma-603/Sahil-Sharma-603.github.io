@@ -2,13 +2,16 @@ import { GraduationCap } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 
 const coursework = [
-  "Data Structures and Algorithms",
-  "Object-Oriented Programming",
-  "Database Systems",
-  "Human Computer Interaction",
-  "Artificial Intelligence",
+  "Data Science Tools",
+  "Applied Linear Models",
+  "Statistical Computing",
+  "Principles of Data Collection",
+  "Basic & Intermediate Statistics",
+  "Databases",
+  "Data Structures & Algorithms",
+  "Bioinformatics",
   "Software Engineering",
-
+  "Analysis of Algorithms",
 ];
 
 export const Education = () => (
@@ -22,7 +25,7 @@ export const Education = () => (
               <GraduationCap className="h-6 w-6" />
             </div>
             <div className="min-w-0 flex-1">
-              <p className="font-pixel text-[9px] text-neon-yellow mb-2">Sept 2020 — Oct 2025</p>
+              <p className="font-pixel text-[9px] text-neon-yellow mb-2">May 2020 — Oct 2025</p>
               <h3 className="font-pixel text-xs sm:text-sm text-foreground leading-relaxed">
                 Bachelor of Science in Computer Science
               </h3>

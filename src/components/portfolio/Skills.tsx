@@ -1,28 +1,77 @@
 import { SectionHeading } from "./SectionHeading";
 
+
 const groups = [
   {
-    title: "LANGUAGES & FRAMEWORKS",
+    title: "DATA & PROGRAMMING",
     color: "pink" as const,
-    skills: ["Java", "JavaScript", "ReactJS", "Node.js", "Next.js", "C", "C++", "R", "SQL", "Python", "Processing", "CSS"],
+    skills: [
+      "Python",
+      "SQL",
+      "R",
+      "Java",
+      "C",
+      "C++",
+      "JavaScript",
+      "Excel",
+      "Data Structures & Algorithms",
+      "Statistical Computing",
+    ],
   },
+
   {
-    title: "TOOLS",
+    title: "DATA ANALYTICS & BI",
     color: "cyan" as const,
-    skills: ["Git","Github", "Azure DevOps", "AWS", "Google Cloud", "Docker", "Postman", "CI/CD", "Agile Methodologies"],
+    skills: [
+      "Power BI",
+      "Tableau",
+      "Data Analysis",
+      "Data Visualization",
+      "Exploratory Data Analysis (EDA)",
+      "Data Modeling",
+      "Data Transformation",
+      "Customer Segmentation",
+      "Statistical Analysis",
+      "Streamlit",
+    ],
   },
+
   {
-    title: "SOFTWARE & ANALYTICS",
+    title: "DATA TOOLS & CLOUD",
     color: "yellow" as const,
-    skills: ["IntelliJ IDEA", "VS Code", "Android Studio", "RStudio", "CLion", "Power BI", "REST APIs", "Data Visualization", "Web Scrapping", "Data Analysis", "Power Automate"],
+    skills: [
+      "dbt",
+      "BigQuery",
+      "AWS",
+      "Google Cloud",
+      "Azure DevOps",
+      "Docker",
+      "Git",
+      "GitHub",
+      "ETL Pipelines",
+      "CI/CD",
+      "REST APIs",
+      "Power Automate",
+    ],
   },
+
   {
-    title: "DATABASES",
+    title: "DATABASES & TECHNOLOGIES",
     color: "green" as const,
-    skills: ["MongoDB", "DynamoDB", "SQLite", "Neo4j"],
+    skills: [
+      "MongoDB",
+      "DynamoDB",
+      "SQLite",
+      "Neo4j",
+      "PostgreSQL",
+      "Data Cleaning",
+      "Data Quality",
+      "Data Warehousing",
+      "ReactJS",
+      "Node.js",
+    ],
   },
 ];
-
 const colorText = {
   pink: "text-neon-pink",
   cyan: "text-neon-cyan",

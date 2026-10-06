@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const ROLES = [
   'Computer Science Student',
-    'Software Engineer',
-    'Full-Stack Developer',
-    'Frontend Specialist',
     'Data Analyst',
     'Tech Enthusiast',
     'Data Engineer',
+    'Software Engineer',
+    'Full-Stack Developer',
+    'Frontend Specialist',
 ];
 
 const useTypewriter = (words: string[], typeMs = 90, eraseMs = 45, holdMs = 1400) => {
@@ -90,8 +90,7 @@ export const Hero = () => {
           </p>
 
           <p className="mt-6 max-w-xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-          Seeking full-time opportunities in software engineering to apply technical skills, solve real-world problems, and contribute to impactful, high-quality solutions.
-          </p>
+          Seeking a full-time opportunity as a Data Analyst to apply analytical and technical skills, transform data into actionable insights, solve real-world business problems, and contribute to data-driven, high-impact decisions and solutions.          </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
