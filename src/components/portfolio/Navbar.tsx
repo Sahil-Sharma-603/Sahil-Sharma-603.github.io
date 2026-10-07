@@ -86,7 +86,7 @@ export const Navbar = () => {
           {/* Right actions */}
           <div className="flex items-center gap-2">
             <a
-              href="/Sahil_Sharma_Resume.pdf"
+              href="/Sahil_Sharma_BA_Resume.pdf"
               // download
               target="_blank"
               className="group inline-flex items-center gap-2 bg-neon-pink text-primary-foreground font-pixel text-[10px] sm:text-xs px-3 sm:px-4 py-2 sm:py-3 shadow-pixel-cyan hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all"
